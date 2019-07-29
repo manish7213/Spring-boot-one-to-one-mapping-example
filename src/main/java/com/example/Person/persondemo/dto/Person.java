@@ -1,4 +1,7 @@
 package com.example.Person.persondemo.dto;
+/**
+ * @author manishkumar
+ */
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
