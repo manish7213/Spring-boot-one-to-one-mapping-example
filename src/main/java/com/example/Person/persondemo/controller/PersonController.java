@@ -52,9 +52,9 @@ public class PersonController {
 	
 	
 	@GetMapping("/address/{id}")
-	public Optional<Person> getAddress(@PathVariable Long id) {
+	public Optional<Address> getAddress(@PathVariable Long id) {
 		
-		return personRepo.findById(id);
+		return addressRepo.findById(id);
 		
 	}
 	
